@@ -41,7 +41,7 @@ describe 'Ruby intro part 1' do
     end
   end
 
-  describe '#sum_to_n' do
+  describe '#sum_to_n?' do
     it 'should be defined' do
       expect { sum_to_n?([1, 2, 3], 4) }.not_to raise_error
     end
